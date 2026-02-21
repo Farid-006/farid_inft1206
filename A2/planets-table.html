@@ -13,60 +13,65 @@ A table displaying data about planets in our solar system.
 <body>
   <h1>Planets in Our Solar System</h1>
   
-  <table>
-    <thead>
+  <caption>Data about the planets in our solar system</caption>
+    <colgroup>
+      <col>
+      <col>
+      <col>
+      <col>
+    </colgroup>
       <tr>
-        <th>Planet Name</th>
-        <th>Distance from Sun (AU)</th>
-        <th>Diameter (km)</th>
-        <th>Moons</th>
+        <th scope="col">Planet Name</th>
+        <th scope="col">Distance from Sun (AU)</th>
+        <th scope="col">Diameter (km)</th>
+        <th scope="col">Moons</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th>Mercury</th>
+        <th scope="row">Mercury</th>
         <td>0.39</td>
         <td>4,879</td>
         <td>0</td>
       </tr>
       <tr>
-        <th>Venus</th>
+        <th scope="row">Venus</th>
         <td>0.72</td>
         <td>12,104</td>
         <td>0</td>
       </tr>
       <tr>
-        <th>Earth</th>
+        <th scope="row">Earth</th>
         <td>1.00</td>
         <td>12,756</td>
         <td>1</td>
       </tr>
       <tr>
-        <th>Mars</th>
+        <th scope="row">Mars</th>
         <td>1.52</td>
         <td>6,792</td>
         <td>2</td>
       </tr>
       <tr>
-        <th>Jupiter</th>
+        <th scope="row">Jupiter</th>
         <td>5.20</td>
         <td>142,984</td>
         <td>79</td>
       </tr>
       <tr>
-        <th>Saturn</th>
+        <th scope="row">Saturn</th>
         <td>9.54</td>
         <td>120,536</td>
         <td>82</td>
       </tr>
       <tr>
-        <th>Uranus</th>
+        <th scope="row">Uranus</th>
         <td>19.19</td>
         <td>51,118</td>
         <td>27</td>
       </tr>
       <tr>
-        <th>Neptune</th>
+        <th scope="row">Neptune</th>
         <td>30.07</td>
         <td>49,528</td>
         <td>14</td>
