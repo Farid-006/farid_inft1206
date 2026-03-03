@@ -31,3 +31,43 @@ h3 {
   font-size: 24px;
   color: #34495e;
 }
+/* Header styles */
+header {
+  background-color: #1a5490;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #2c3e50;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
