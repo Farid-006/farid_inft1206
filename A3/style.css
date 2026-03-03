@@ -22,3 +22,22 @@ h2 {
   color: #3498db;
   font-size: 24px;
 }
+/* Paragraph styles */
+p {
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* List styles */
+ul {
+  background-color: #ffffff;
+  padding: 20px;
+  border-left: 4px solid #3498db;
+}
+
+li {
+  color: #555555;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
