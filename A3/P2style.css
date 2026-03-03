@@ -4,3 +4,30 @@ File: style.css
 Date: 2 March 2026
 CSS styles for Durham College homepage with typography and text styling.
 */
+/* Basic typography */
+body {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  color: #1a5490;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #34495e;
+}
