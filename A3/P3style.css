@@ -1,0 +1,18 @@
+/*
+Name: Farid Naseri
+File: P3style.css
+Date: 2 March 2026
+CSS layout styles using flexbox for responsive page structure.
+*/
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
