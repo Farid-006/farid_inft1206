@@ -129,6 +129,7 @@ td, th {
   background-color: #aaa;
   color: white;
   font-size: 2rem;
+  border: none;
 }
 
 .comment-wrapper {
@@ -143,6 +144,11 @@ td, th {
   display: flex;
   padding: 0 20px 20px 0;
   font-size: 2rem;
+}
+
+.flex-pair label {
+  display: flex;
+  align-items: center;
 }
 
 .flex-pair input {
